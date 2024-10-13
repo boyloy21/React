@@ -1,0 +1,254 @@
+body{
+  background-color: hsl(0, 20%, 91%);
+}
+.card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+
+.card .card-text{
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
+.button{
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.button:hover{
+  background-color: hsl(200, 100%, 60%);
+}
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  padding: 10px;
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
+}
+.student p{
+  margin: 0;
+}
+
+.welcom-message{
+  font-size: 2.5rem;
+  background-color: hsl(228, 44%, 45%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.login-prompt{
+  font-size: 2.5rem;
+  background-color: hsl(0, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.list-category{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(105, 100%, 50%);
+}
+
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+}
+.list-items li:hover{
+  color: hsl(0, 0%, 45%);
+  cursor: pointer;
+}
+
+.imgclick{
+  max-width: 50%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.counter-container{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.count-display{
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.count-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(200, 100%, 60%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.count-button:hover{
+  background-color: hsl(200, 100%, 50%);
+}
+
+.component2{
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.color-picker-container h1{
+  margin: 50px;
+  font-size: 3rem;
+}
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+.color-dislpay p{
+  color: hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+}
+.color-picker-container label{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.color-picker-container input{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%)
+}
+
+.cardelet-btn{
+  margin-left: 20px;
+  background-color: hsl(0, 10%, 84%);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.cardelet-btn:hover{
+  background-color: hsl(0, 10%, 94%);
+}
+
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  margin-top: 100px;
+}
+.to-do-list h1{
+  font-size: 4rem;
+}
+.to-do-list button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+.to-do-list .add-button{
+  background-color: hsl(125, 47%, 54%);
+}
+.to-do-list .add-button:hover{
+  background-color: hsl(125, 47%, 44%);
+}
+.to-do-list .delete-button{
+  background-color: hsl(10, 90%, 50%);
+}
+.to-do-list .delete-button:hover{
+  background-color: hsl(10, 90%, 60%);
+}
+.to-do-list .move-button{
+  background-color: hsl(207, 90%, 64%);
+}
+.to-do-list .move-button:hover{
+  background-color: hsl(207, 90%, 54%);
+}
+.to-do-list input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+.to-do-list ol{
+  padding: 0;
+}
+.to-do-list li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex: 1;
+}
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+.box{
+  border: 3px solid;
+  padding: 25px;
+}
